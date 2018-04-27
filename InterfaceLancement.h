@@ -9,7 +9,7 @@
 class InterfaceLancement {
 public:
 //	InterfaceLancement();
-//	virtual ~InterfaceLancement();
+	virtual ~InterfaceLancement(){}
 
 	virtual void lancerRequete(requete::Requete* requete) = 0;
 	virtual void lancerRequeteInfo(requete::RequeteInfo* requeteInfo) = 0;

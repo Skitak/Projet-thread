@@ -7,7 +7,7 @@
 class InterfaceJournalisation {
 public:
 //	InterfaceJournalisation();
-//	virtual ~InterfaceJournalisation();
+	virtual ~InterfaceJournalisation(){}
 
 	virtual void journaliserRequete(requete::Requete* requete, ServeurJeu* serveurJeu) = 0;
 };
